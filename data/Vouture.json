@@ -1,0 +1,16 @@
+{
+  "Vouture": [
+    {
+      "name": "bmw",
+
+      "text": "  aaa fg gr ",
+      "LesPlaquesMatricule": "44-a-85555",
+      "dataDupe": "10/08/2023",
+      "dataFini": "2/9/2023",
+      "numerJoue": 14,
+      "prix": "300 dh",
+      "image": ["/dd.png"],
+      "VerifierDisponibilite": true
+    }
+  ]
+}

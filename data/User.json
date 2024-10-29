@@ -1,0 +1,20 @@
+{
+  "Users": [
+    {
+      "name": "mehdi",
+      "email": "fff@dd.sd",
+      "pername": "pername",
+      "password": "15688888",
+      "tel": "3454544554",
+      "role": "adimen"
+    },
+    {
+      "name": "mehdi",
+      "email": "f7ff@dd.sd",
+      "pername": "pername",
+      "password": "15688888",
+      "tel": "3454544554",
+      "role": "adimen"
+    }
+  ]
+}
