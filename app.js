@@ -21,6 +21,8 @@ const CommedRoutes = require("./routes/commed");
 const statutvoitures = require("./routes/statutvoitures");
 
 app.use("/api/Vouture", VoutureRoutes);
+
+app.use("/", VoutureRoutes);
 app.use("/api/auto", UsersRoutes);
 
 app.use("/api/statutvoitures", statutvoitures);
