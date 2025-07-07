@@ -3,8 +3,6 @@ const router = express.Router();
 
 const commed = require("../controllers/commed");
 
-const email = require("../controllers/email");
-
 const auth = require("../middleware/adimen");
 router.get("/", commed.getData);
 router.post("/:id", commed.createCommed);
@@ -16,6 +14,5 @@ router.get("/getCommedsUser/:email", commed.getCommedsUser);
 
 router.post("/vaidetionLaDomonde/:id", commed.vaidetionLaDomonde);
 
-router.get("/email", email.email);
 router.get("/getUneCommed/:id", commed.getUneCommed);
 module.exports = router;
